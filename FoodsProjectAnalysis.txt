@@ -1,0 +1,97 @@
+I) Phân tích dự án shop bán thực phẩm mát hữu cơ
+- Frontend
+	- Trang chủ
+	- Trang giới thiệu
+	- Trang danh sách sản phẩm
+	- Trang chi tiết sản phẩm
+	- Trang đánh giá sản phẩm của khách hàng
+	- Trang checkout (thủ tục thanh toán)
+	- Trang thanh toán hoàn thành
+	- Trang liên hệ
+- Admin:
+	- Tài khoản người dùng:
+		Quản lý role (admin, user, người bán, người mua, ...)
+		Quản lý người dùng: admin/user/...
+			Hiển thị danh sách thêm, sửa, xóa
+		Đăng ký tài khoản
+		Đăng nhập
+	- Quản lý danh mục sản phẩm (CRUD)
+	- Quản lý sản phẩm (CRUD)
+	- Quản lý đơn hàng
+		Hiển thị được danh sách đơn hàng -> Hiển thị giảm dần theo thời gian
+			(quản lý được trạng thái đơn hàng)
+	- Quản lý phản hồi, đăng ký nhận tin khuyến mãi
+
+II) Phân tích thiết kế database
+
+1) Bảng role(vai trò)
+	-r_id: int -> Khóa chính tự tăng
+	-r_name: nvarchar - 20 ký tự
+2) Bảng users
+	- u_id: int -> Khóa chính tự tăng
+	- u_fullname: nvarchar - 45 ký tự
+	- u_email: varchar - 45 ký tự - unique
+	- u_phone: varchar - 20 Ký tự
+	- u_address: nvarchar - 200 ký tự
+	- u_password: varchar -> md5 - 14 ký tự
+	- role_id: int -> foreign key -> role(r_id)
+	- u_created_at datetime
+	- u_updated_at datetime
+	- u_deleted: bit
+3) Bảng danh mục categories
+	- c_id: int -> Khóa chính tự tăng
+	- c_ name: nvarchar - 45 ký tự
+4) Bảng sản phẩm product
+	- p_id: int -> Khóa tự tăng
+	- p_name: nvarchar - 100 ký tự
+	- p_trademark: nvarchar - 45 ký tự
+	- p_amount: int 
+	- p_price: int
+	- p_discount: int 
+	- p_source: nvarchar - 30 ký tự
+	- p_mass: double 
+	- p_description: longtext
+	- p_created_at: datetime -> Thời gian tạo bản ghi
+	- p_update_at: datetime -> Thời gian sửa bản ghi đó
+	- c_id: int -> foreign key -> categories (c_id)
+	- p_deleted: bit
+5) Bảng quản lý galery (Hình ảnh sản phẩm)
+	- g_id: int -> Khóa tự tăng
+	- product_id: int -> foreign key-> product(p_id)
+	- g_thumbnail -> varchar - 100 ký tự
+6) Bảng quản lý phản hồi -> feedback
+	- fb_id: int -> Khóa tự tăng
+	- fb_fullname: nvarchar - 50 ký tự
+	- fb_email: varchar - 50 Ký tự
+	- fb_note -> nvarchar - 500 ký tự
+7) Quản lý đơn hàng: 
+	- id: int tự tăng
+	- fullname
+	- email
+	- phone_number
+	- address
+	- note 
+	- order_date: datetime -> Thời điểm đặt đơn hàng
+	- Danh sách sản phẩn:
+		- Sản phẩm 1 x số lượng x giá thời điểm mua
+		- Sản phẩm 2 x số lượng x giá thời điểm mua
+	7.1) Bảng orders ( 1 đơn hàng có thể đặt mua nhiều sản phẩm nên cần phải có 1 bảng chi tiết đơn hàng)
+		- id: int tự tăng
+		- u_id: foreign key
+		- fullname
+		- email
+		- phone_number
+		- address
+		- note
+		- order_date: datetime -> Thời điểm đặt hàng
+		- status: (pending, approved, unset, ...)
+		- shipped: (chuyển khoản, trả khi nhận hàng, ...)
+	7.2) Bảng chi tiết đơn hàng order_details
+		- id: int tự tăng
+		- order_id: int -> foreign key -> order(id)
+		- product_id: int -> foreign key -> product (p_id)
+		- price -> int
+		- amount -> int -> số lượng sản phẩm mua
+		
+		
+	

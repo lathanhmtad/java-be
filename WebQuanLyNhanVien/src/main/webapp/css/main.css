@@ -1,0 +1,54 @@
+.container {
+	text-align: center;
+}
+
+a {
+	display: block;
+	font-size: 18px;
+}
+
+form {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	margin-top: 12px
+}
+
+.form-group label {
+	width: 160px;
+	display: inline-block;
+}
+
+input {
+	padding: 8px;
+	width: 100%;
+}
+
+table {
+	margin-top: 16px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	font-size: 28px;
+	margin: 0 2px;
+}
+
+.active {
+	color: red;
+}

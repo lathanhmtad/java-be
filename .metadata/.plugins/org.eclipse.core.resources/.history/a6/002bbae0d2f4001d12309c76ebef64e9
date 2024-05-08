@@ -1,0 +1,9 @@
+package com.ndd.model;
+
+
+
+public class ProductImage extends AbstractModel<ProductImage> {
+	private String name;
+	private String type;
+	private byte[] data;
+}

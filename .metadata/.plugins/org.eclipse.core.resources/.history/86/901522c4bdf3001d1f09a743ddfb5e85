@@ -1,0 +1,11 @@
+package com.ndd.test;
+
+import javax.inject.Inject;
+
+import com.ndd.services.IUserService;
+
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+}

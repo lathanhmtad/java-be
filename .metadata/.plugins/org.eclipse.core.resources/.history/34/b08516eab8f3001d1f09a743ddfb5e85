@@ -1,0 +1,7 @@
+package com.ndd.mapper;
+
+import com.ndd.model.UserModel;
+
+public class UserMapper implements RowMapper<UserModel> {
+
+}

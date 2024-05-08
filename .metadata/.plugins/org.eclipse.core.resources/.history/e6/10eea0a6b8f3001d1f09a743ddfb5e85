@@ -1,0 +1,5 @@
+package com.ndd.dao.impl;
+
+public class UserDAOImpl {
+
+}

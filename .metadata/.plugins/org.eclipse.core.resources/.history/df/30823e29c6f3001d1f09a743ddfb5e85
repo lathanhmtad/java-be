@@ -1,0 +1,14 @@
+package com.ndd.utils;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class FormUtil {
+	public static <T> T toModel(Class<T> clazz, HttpServletRequest request) {
+		T object = clazz.getDeclaredConstructor();
+		
+
+		
+		
+		return object;
+	}
+}

@@ -1,0 +1,12 @@
+1682671005890	Rename package 'controller'
+1682671012131	Rename package 'model'
+1682671054326	Rename package 'com.util'
+1682672032577	Delete element
+1682762227534	Move compilation unit
+1682762229427	Delete element
+1682765925249	Delete element
+1682766107403	Delete element
+1682766293497	Rename package 'com.dao.imple'
+1682766302353	Rename package 'com.dao.impl'
+1682766447928	Rename type 'CustomerDAO'
+1682766589487	Rename type 'Email'

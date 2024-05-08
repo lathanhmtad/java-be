@@ -1,0 +1,26 @@
+package com.ndd.model;
+
+
+import java.util.Arrays;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@Getter
+@Setter
+
+
+public class BookImageModel extends AbstractModel<BookImageModel> {
+	private String name;
+	private String format;
+	private byte[] data;
+	private Long bookId;
+	
+	@Override
+	public String toString() {
+		return "BookImageModel [name=" + name + ", format=" + format + ", data=" + Arrays.toString(data) + ", bookId="
+				+ bookId + "]";
+	}
+}

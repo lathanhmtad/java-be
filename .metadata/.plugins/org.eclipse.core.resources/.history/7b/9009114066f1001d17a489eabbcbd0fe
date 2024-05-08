@@ -1,0 +1,36 @@
+package com.ndd.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.ndd.dao.IGenericDAO;
+import com.ndd.mapper.RowMapper;
+import com.ndd.utils.JDBCUtil;
+
+public class AbstractDAOImpl<T> implements IGenericDAO<T> {
+
+	@Override
+	public List<T> query(String sql, RowMapper<T> rowMapper, Object... params) {
+		List<T> results = new ArrayList<>();
+		
+		try(Connection conn = JDBCUtil.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql)) {
+			
+			try(ResultSet rs = ps.executeQuery()) {
+				while(rs != null) {
+					T object = rowMapper.mapRow(rs);
+					results.add(object);
+				}
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+}

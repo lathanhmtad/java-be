@@ -1,0 +1,10 @@
+package com.ndd.model;
+
+import java.sql.Timestamp;
+
+public class AbstractModel<T> {
+	private String createdBy;
+	private String modifiedBy;
+	private Timestamp createdDate;
+	private Timestamp modifiedDate;
+}

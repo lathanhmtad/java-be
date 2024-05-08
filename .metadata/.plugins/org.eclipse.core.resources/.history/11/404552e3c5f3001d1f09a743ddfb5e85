@@ -1,0 +1,17 @@
+package com.ndd.utils;
+
+import java.util.Map;
+import java.util.Set;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class FormUtil {
+	public static <T> T toModel(Class<T> clazz, HttpServletRequest request) {
+		T object = null;
+		
+		object = clazz.newInstance();
+		
+		
+		return object;
+	}
+}

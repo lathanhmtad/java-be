@@ -1,0 +1,7 @@
+package com.ndd.dao.impl;
+
+import com.ndd.dao.IUserDAO;
+
+public class UserDAOImpl implements IUserDAO {
+
+}

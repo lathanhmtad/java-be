@@ -1,0 +1,24 @@
+1678846693656	Rename package 'database'
+1678846774696	Rename package 'view'
+1678846862009	Rename package 'dao'
+1678846891211	Rename package 'model'
+1678847035285	Delete element
+1678847078726	Delete element
+1678851197305	Delete element
+1678851201751	Rename compilation unit 'NhanVienView2.java'
+1678861390024	Rename package 'business_logic_layer'
+1678861406870	Rename package 'data_access_layer'
+1678861447342	Move compilation unit
+1678861450570	Delete element
+1678861508225	Move compilation units
+1678862048978	Rename type 'DanhSachNhanVien'
+1678862140669	Rename type 'JDBCUtil'
+1678930734478	Rename package 'presentation_layer'
+1678930744513	Rename package 'businessLogic_layer'
+1678931018182	Rename package 'dataAccess_layer'
+1678931081789	Rename package 'model'
+1678931102276	Move compilation unit
+1678931104964	Delete element
+1678931119914	Rename package 'tester'
+1678932425197	Rename type 'SQLServerConnect'
+1678936822267	Delete element

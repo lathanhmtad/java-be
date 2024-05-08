@@ -1,0 +1,5 @@
+package com.ndd.services.impl;
+
+public class UserServiceImpl {
+
+}

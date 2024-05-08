@@ -1,0 +1,7 @@
+package com.ndd.utils;
+
+public class FormUtil {
+	public static T toModel(Class<T> ) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.ndd.model;
+
+public class ProductModel extends AbstractModel<ProductModel> {
+	private String name;
+	private String trademark;
+	private String amount;
+	private Double price;
+	private Double disount;
+}

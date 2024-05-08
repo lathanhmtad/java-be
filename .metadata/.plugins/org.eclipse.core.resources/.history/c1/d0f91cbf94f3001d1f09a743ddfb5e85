@@ -1,0 +1,6 @@
+package com.ndd.model;
+
+public class RoleModel extends AbstractModel<RoleModel> {
+	private String name;
+	private String code;
+}

@@ -1,0 +1,7 @@
+package com.ndd.services.impl;
+
+import com.ndd.services.IUserService;
+
+public class UserServiceImpl implements IUserService {
+
+}

@@ -1,0 +1,5 @@
+package com.ndd.dao;
+
+public interface IGenericDAO {
+
+}

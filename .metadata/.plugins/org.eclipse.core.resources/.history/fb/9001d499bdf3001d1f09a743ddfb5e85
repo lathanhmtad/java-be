@@ -1,0 +1,5 @@
+package com.ndd.services;
+
+public interface IUserService {
+	
+}

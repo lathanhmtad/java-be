@@ -1,0 +1,7 @@
+package com.ndd.dao.impl;
+
+import com.ndd.dao.IGenericDAO;
+
+public class AbstractDAOImpl<T> implements IGenericDAO<T> {
+	
+}

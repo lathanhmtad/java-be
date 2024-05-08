@@ -1,0 +1,7 @@
+package com.ndd.dao;
+
+import com.ndd.model.RoleModel;
+
+public interface IRoleDAO extends IGenericDAO<RoleModel> {
+	Long save(RoleModel role);
+}

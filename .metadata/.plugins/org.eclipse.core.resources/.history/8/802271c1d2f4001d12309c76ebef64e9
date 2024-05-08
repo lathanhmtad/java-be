@@ -1,0 +1,6 @@
+package com.ndd.model;
+
+public class ProductImage {
+	private String name;
+	private String type;
+}

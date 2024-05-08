@@ -1,0 +1,24 @@
+package com.ndd.utils;
+
+public class SessionUtil {
+	
+	private static SessionUtil sessionUtil = null;
+	
+	public static SessionUtil getInstance() {
+		if(sessionUtil == null) {
+			SessionUtil = new SessionUtil();
+		}
+	}
+	
+	public void putValue() {
+		
+	}
+	
+	public Object getValue() {
+		return null;
+	}
+	
+	public void removeValue() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.ndd.dao.impl;
+
+import com.ndd.dao.IUserDAO;
+import com.ndd.model.UserModel;
+
+public class UserDAOImpl extends AbstractDAOImpl<UserModel> implements IUserDAO {
+
+	@Override
+	public UserModel findOneByUsernameAndPassword() {
+		
+		return null;
+	}
+
+}

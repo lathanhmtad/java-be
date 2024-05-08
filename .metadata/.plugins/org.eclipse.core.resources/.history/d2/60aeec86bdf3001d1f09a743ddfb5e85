@@ -1,0 +1,10 @@
+package com.ndd.test;
+
+import com.ndd.dao.IUserDAO;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		
+	}
+}

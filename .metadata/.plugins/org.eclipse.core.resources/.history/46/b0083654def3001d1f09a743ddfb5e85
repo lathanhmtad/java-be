@@ -1,0 +1,20 @@
+package com.ndd.dao.impl;
+
+import java.util.List;
+
+import com.ndd.dao.IUserDAO;
+import com.ndd.mapper.UserMapper;
+import com.ndd.model.UserModel;
+
+public class UserDAOImpl extends AbstractDAOImpl<UserModel> implements IUserDAO {
+
+	@Override
+	public UserModel findOneByUsernameAndPassword(String username, String password) {
+		String sql = "select * from user where username = ? and password = ?";
+		List<UserModel> users = query(sql, new UserMapper(), username, password);
+		return users.isEmpty() ? null : users.get(0);
+	}
+
+
+
+}

@@ -1,0 +1,6 @@
+package com.ndd.model;
+
+public class UserModel {
+	private String username;
+	
+}

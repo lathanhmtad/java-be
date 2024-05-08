@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title><dec:title default="Trang chủ" /></title>
+</head>
+<body>
+	<!-- sidebar -->
+	<%@include file="/common/admin/sidebar.jsp" %>
+	
+	<div class="main-content">
+		
+	</div>
+	
+	<!-- footer -->
+	<%@include file="/common/admin/footer.jsp" %>
+</body>
+</html>

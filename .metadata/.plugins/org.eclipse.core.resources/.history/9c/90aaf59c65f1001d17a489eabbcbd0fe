@@ -1,0 +1,22 @@
+package com.ndd.dao.impl;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import com.ndd.dao.IGenericDAO;
+import com.ndd.mapper.RowMapper;
+
+public class AbstractDAOImpl<T> implements IGenericDAO<T> {
+
+	@Override
+	public List<T> query(String sql, RowMapper<T> rowMapper, Object... params) {
+		
+		try {
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+}

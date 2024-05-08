@@ -1,0 +1,7 @@
+package com.ndd.utils;
+
+public class JDBCUtil {
+	public static getConnection() {
+		
+	}
+}

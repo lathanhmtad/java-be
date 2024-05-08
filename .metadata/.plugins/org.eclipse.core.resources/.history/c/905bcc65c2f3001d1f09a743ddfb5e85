@@ -1,0 +1,18 @@
+package com.ndd.utils;
+
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class FormUtil {
+	public static <T> T toModel(Class<T> clazz, HttpServletRequest request) {
+		T object = null;
+		
+		Map<String, String[]> map = request.getParameterMap();
+		
+		
+		
+		
+		return object;
+	}
+}

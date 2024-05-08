@@ -1,0 +1,24 @@
+1684396190664	Rename type 'ProductModel'
+1684396735165	Delete element
+1684397683646	Rename type 'ProductController'
+1684397704500	Rename resource 'product_management.jsp'
+1684399237815	Rename type 'ProductImageModel'
+1684401619214	Rename type 'ProductAPI'
+1684481802612	Delete element
+1684481948443	Delete element
+1684493771050	Delete element
+1684493991109	Delete element
+1684493992383	Delete element
+1684574249561	Rename type 'BookImageMapper'
+1684576280863	Rename type 'BookImageImpl'
+1684577064188	Delete element
+1684598442945	Rename type 'IBookDAO'
+1684598454803	Rename type 'IBookImageDAO'
+1684598459103	Rename type 'ICategoryDAO'
+1684598464392	Rename type 'IGenericDAO'
+1684598467366	Rename type 'IRoleDAO'
+1684598470513	Rename type 'IUserDAO'
+1684598523254	Rename type 'IBookImageService'
+1684598565271	Rename type 'IBookService'
+1684598573201	Rename type 'ICategoryService'
+1684598577803	Rename type 'IUserService'

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/d0763/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-ru.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-dbcp.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-jni.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-util-scan.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/jsp-api.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/websocket-api.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina-ssi.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-pt-BR.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/el-api.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-ko.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-de.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina-ant.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-api.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-sitemesh-2.4.2.jar/meta-inf/sitemesh-decorator.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-sitemesh-2.4.2.jar/meta-inf/sitemesh-page.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina-ha.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/jasper.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-ja.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/servlet-api.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-zh-CN.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-util.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-cs.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-i18n-fr.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/jasper-el.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/annotations-api.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/catalina-storeconfig.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/org/jboss/weld/servlet/weld-servlet/2.4.8.Final/weld-servlet-2.4.8.Final.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-weld-servlet-2.4.8.Final.jar/meta-inf/faces-config.xml" project="books-jsp-servlet-jdbc"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/ecj-4.20.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-websocket.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/tomcat-jdbc.jar"/>
+  <path value="D:/JavaBE/apache-tomcat-9.0.62/lib/jaspic-api.jar"/>
+  <path value="C:/Users/d0763/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="books-jsp-servlet-jdbc"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;%2;%3;%4;" path="%0"/>
+   <linked-resource name="%3;%4;" path="%5"/>
+   <linked-resource name="%6;" path="%1"/>
+   <linked-resource name="%3;%4;" path="%7"/>
+   <linked-resource name="%1;%2;%3;%4;" path="%8"/>
+   <linked-resource name="%2;%3;" path="%9"/>
+   <linked-resource name="%11;" path="%10"/>
+   <linked-resource name="%2;%3;" path="%12"/>
+   <linked-resource name="%3;" path="%13"/>
+   <linked-resource name="%11;" path="%2"/>
+   <linked-resource name="%14;" path="%4"/>
+   <linked-resource name="%1;" path="%15"/>
+   <linked-resource name="%14;%11;%6;" path="%3"/>
+   <linked-resource name="%3;" path="%16"/>
+   <linked-resource name="%14;%11;%6;" path="%17"/>
+   <linked-resource name="%1;" path="%18"/>
+   <linked-resource name="%6;" path="%19"/>
+   <linked-resource name="%14;" path="%20"/>
+  </core>
+  <el>
+   <linked-el length="15" name="%21" offset="645" path="%22"/>
+   <linked-el length="32" name="%23" offset="2506" path="%24"/>
+   <linked-el length="32" name="%23" offset="2506" path="%25"/>
+   <linked-el length="24" name="%26" offset="2398" path="%27"/>
+   <linked-el length="22" name="%26" offset="2494" path="%27"/>
+   <linked-el length="22" name="%26" offset="1210" path="%28"/>
+   <linked-el length="20" name="%29" offset="748" path="%22"/>
+   <linked-el length="22" name="%30" offset="2494" path="%27"/>
+   <linked-el length="22" name="%30" offset="1210" path="%28"/>
+   <linked-el length="28" name="%31" offset="2161" path="%25"/>
+   <linked-el length="28" name="%31" offset="2161" path="%24"/>
+   <linked-el length="15" name="%32" offset="2585" path="%24"/>
+   <linked-el length="15" name="%32" offset="2585" path="%25"/>
+   <linked-el length="20" name="%33" offset="1640" path="%24"/>
+   <linked-el length="20" name="%33" offset="1640" path="%25"/>
+   <linked-el length="15" name="%34" offset="2585" path="%24"/>
+   <linked-el length="15" name="%34" offset="2585" path="%25"/>
+   <linked-el length="19" name="%35" offset="1821" path="%24"/>
+   <linked-el length="19" name="%35" offset="1821" path="%25"/>
+   <linked-el length="25" name="%36" offset="414" path="%37"/>
+   <linked-el length="20" name="%38" offset="1640" path="%24"/>
+   <linked-el length="20" name="%38" offset="1640" path="%25"/>
+   <linked-el length="15" name="%39" offset="2339" path="%25"/>
+   <linked-el length="15" name="%39" offset="2339" path="%24"/>
+   <linked-el length="27" name="%40" offset="2721" path="%25"/>
+   <linked-el length="27" name="%40" offset="2721" path="%24"/>
+   <linked-el length="16" name="%41" offset="1336" path="%24"/>
+   <linked-el length="16" name="%41" offset="1336" path="%25"/>
+   <linked-el length="10" name="%42" offset="280" path="%22"/>
+   <linked-el length="15" name="%43" offset="665" path="%44"/>
+   <linked-el length="13" name="%45" offset="547" path="%22"/>
+   <linked-el length="15" name="%45" offset="645" path="%22"/>
+   <linked-el length="22" name="%45" offset="693" path="%22"/>
+   <linked-el length="12" name="%45" offset="705" path="%44"/>
+   <linked-el length="14" name="%45" offset="801" path="%22"/>
+   <linked-el length="12" name="%45" offset="718" path="%44"/>
+   <linked-el length="20" name="%45" offset="748" path="%22"/>
+   <linked-el length="11" name="%45" offset="600" path="%22"/>
+   <linked-el length="93" name="%45" offset="362" path="%22"/>
+   <linked-el length="23" name="%46" offset="1989" path="%25"/>
+   <linked-el length="23" name="%46" offset="1989" path="%24"/>
+   <linked-el length="27" name="%47" offset="2721" path="%25"/>
+   <linked-el length="32" name="%47" offset="2506" path="%24"/>
+   <linked-el length="32" name="%47" offset="2506" path="%25"/>
+   <linked-el length="27" name="%47" offset="2721" path="%24"/>
+   <linked-el length="27" name="%48" offset="2721" path="%25"/>
+   <linked-el length="27" name="%48" offset="2721" path="%24"/>
+   <linked-el length="10" name="%49" offset="455" path="%37"/>
+   <linked-el length="22" name="%49" offset="374" path="%37"/>
+   <linked-el length="32" name="%50" offset="2506" path="%24"/>
+   <linked-el length="32" name="%50" offset="2506" path="%25"/>
+   <linked-el length="13" name="%51" offset="547" path="%22"/>
+   <linked-el length="12" name="%51" offset="718" path="%44"/>
+   <linked-el length="93" name="%52" offset="362" path="%22"/>
+   <linked-el length="17" name="%53" offset="1153" path="%25"/>
+   <linked-el length="17" name="%53" offset="1153" path="%24"/>
+   <linked-el length="32" name="%54" offset="2506" path="%24"/>
+   <linked-el length="32" name="%54" offset="2506" path="%25"/>
+   <linked-el length="17" name="%55" offset="1153" path="%25"/>
+   <linked-el length="17" name="%55" offset="1153" path="%24"/>
+   <linked-el length="15" name="%56" offset="1482" path="%24"/>
+   <linked-el length="15" name="%56" offset="1482" path="%25"/>
+   <linked-el length="14" name="%57" offset="801" path="%22"/>
+   <linked-el length="20" name="%58" offset="1640" path="%24"/>
+   <linked-el length="20" name="%58" offset="1640" path="%25"/>
+   <linked-el length="23" name="%59" offset="1989" path="%25"/>
+   <linked-el length="23" name="%59" offset="1989" path="%24"/>
+   <linked-el length="22" name="%60" offset="693" path="%22"/>
+   <linked-el length="12" name="%61" offset="705" path="%44"/>
+   <linked-el length="11" name="%61" offset="600" path="%22"/>
+   <linked-el length="15" name="%62" offset="1482" path="%24"/>
+   <linked-el length="15" name="%62" offset="1482" path="%25"/>
+   <linked-el length="27" name="%63" offset="2721" path="%25"/>
+   <linked-el length="27" name="%63" offset="2721" path="%24"/>
+   <linked-el length="23" name="%64" offset="1989" path="%25"/>
+   <linked-el length="23" name="%64" offset="1989" path="%24"/>
+   <linked-el length="28" name="%65" offset="2161" path="%25"/>
+   <linked-el length="28" name="%65" offset="2161" path="%24"/>
+   <linked-el length="28" name="%66" offset="2161" path="%25"/>
+   <linked-el length="28" name="%66" offset="2161" path="%24"/>
+   <linked-el length="15" name="%67" offset="2339" path="%25"/>
+   <linked-el length="15" name="%67" offset="2339" path="%24"/>
+   <linked-el length="19" name="%68" offset="1821" path="%24"/>
+   <linked-el length="19" name="%68" offset="1821" path="%25"/>
+   <linked-el length="16" name="%69" offset="1336" path="%24"/>
+   <linked-el length="16" name="%69" offset="1336" path="%25"/>
+   <linked-el length="22" name="%70" offset="693" path="%22"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/webapp/views/auth/login.jsp" value="%37"/>
+  <alias path="USERMODEL" value="%26"/>
+  <alias path="item.description" value="%29"/>
+  <alias path="USERMODEL.fullName" value="%30"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/impl/BookDAOImpl.java" value="%16"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/webapp/views/web/home.jsp" value="%22"/>
+  <alias path="javax.servlet.api" value="%33"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/UserService.java" value="%19"/>
+  <alias path="java" value="%34"/>
+  <alias path="javax" value="%38"/>
+  <alias path="maven.war" value="%40"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/JavaBE/books-jsp-servlet-jdbc/target/m2e-wtp/web-resources/META-INF/maven/com.ndd/foods-jsp-servlet-jdbc/pom.xml" value="%24"/>
+  <alias path="mysql" value="%41"/>
+  <alias path="model" value="%42"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/impl/CategoryDAOImpl.java" value="%12"/>
+  <alias path="item" value="%45"/>
+  <alias path="weld.servlet" value="%46"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/webapp/common/admin/navbar.jsp" value="%28"/>
+  <alias path="maven" value="%47"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/controller/admin/api/BookAPI.java" value="%14"/>
+  <alias path="/books-jsp-servlet-jdbc/pom.xml" value="%25"/>
+  <alias path="maven.war.plugin" value="%48"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/controller/admin/BookController.java" value="%11"/>
+  <alias path="maven.complier" value="%50"/>
+  <alias path="item.name" value="%51"/>
+  <alias path="item.bookImages" value="%52"/>
+  <alias path="lombok" value="%53"/>
+  <alias path="maven.complier.plugin" value="%54"/>
+  <alias path="jstl" value="%56"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/UserDAO.java" value="%15"/>
+  <alias path="jstl.version" value="%62"/>
+  <alias path="maven.war.plugin.version" value="%63"/>
+  <alias path="weld.servlet.version" value="%64"/>
+  <alias path="commons.beanutils.version" value="%65"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/impl/AbstractDAOImpl.java" value="%8"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/impl/BookImageServiceImpl.java" value="%4"/>
+  <alias path="mysql.version" value="%69"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/controller/web/HomeController.java" value="%6"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/CategoryDAO.java" value="%9"/>
+  <alias path="item.author" value="%21"/>
+  <alias path="maven.complier.plugin.version" value="%23"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/impl/CategoryServiceImpl.java" value="%2"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/GenericDAO.java" value="%0"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/impl/BookImageDAOImpl.java" value="%5"/>
+  <alias path="commons" value="%31"/>
+  <alias path="java.release" value="%32"/>
+  <alias path="sitemesh.version" value="%35"/>
+  <alias path="alert" value="%36"/>
+  <alias path="gson.version" value="%39"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/webapp/common/web/header.jsp" value="%27"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/webapp/views/admin/add_book.jsp" value="%44"/>
+  <alias path="categories" value="%43"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/BookDAO.java" value="%13"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/BookImageService.java" value="%20"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/impl/UserServiceImpl.java" value="%1"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/BookImageDAO.java" value="%7"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/BookService.java" value="%17"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/impl/BookServiceImpl.java" value="%3"/>
+  <alias path="message" value="%49"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/dao/impl/UserDAOImpl.java" value="%18"/>
+  <alias path="lombok.version" value="%55"/>
+  <alias path="item.price" value="%57"/>
+  <alias path="javax.servlet" value="%58"/>
+  <alias path="weld" value="%59"/>
+  <alias
+   path="/books-jsp-servlet-jdbc/src/main/java/com/ndd/services/CategoryService.java" value="%10"/>
+  <alias path="item.category" value="%60"/>
+  <alias path="item.id" value="%61"/>
+  <alias path="commons.beanutils" value="%66"/>
+  <alias path="gson" value="%67"/>
+  <alias path="sitemesh" value="%68"/>
+  <alias path="item.category.name" value="%70"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://www.opensymphony.com/sitemesh/decorator">
+   <prefix>dec</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

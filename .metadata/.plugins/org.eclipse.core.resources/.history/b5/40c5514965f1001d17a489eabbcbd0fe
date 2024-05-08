@@ -1,0 +1,18 @@
+package com.ndd.utils;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class JDBCUtil {
+	public static Connection getConnection() {
+		Connection conn = null;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+}
